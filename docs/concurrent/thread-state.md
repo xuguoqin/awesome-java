@@ -32,7 +32,8 @@
 
 > 在给定时间点上，一个线程只能处于一种状态。这些状态是虚拟机状态，它们并没有反映所有操作系统线程状态
 
-### Thread类中的状态相关代码
+### 代码实践
+#### Thread类中的状态相关代码
 ```java
 public
 class Thread implements Runnable {
@@ -51,7 +52,7 @@ class Thread implements Runnable {
 }
 ```
 
-### 测试代码
+#### 测试代码
 ```java
 package com.xuguoqin.awesomejava.concurrent;
 
@@ -146,7 +147,8 @@ public class ThreadState {
 
 ```
 
-### 测试输出结果
+
+#### 测试输出结果
 ```
 NEW
 WAITING
